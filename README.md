@@ -7,7 +7,11 @@ javac connect4/codeprovided/*.java
 javac connect4/*.java
 ```
 
-**To run:**  
+**To run with GUI:**
 ```
-java connect4.PlayConnect4
+java connect4.PlayConnect4 -gui
+```
+**To run in console:**
+```
+java connect4.PlayConnect4 -nogui
 ```
